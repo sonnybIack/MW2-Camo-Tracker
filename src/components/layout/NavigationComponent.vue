@@ -2,10 +2,10 @@
 	<nav class="container">
 		<router-link to="/" class="logo">
 			<div class="icon"></div>
-			<p><span>Orion</span></p>
+			<p><span>MW2 Camo Tracker</span></p>
 		</router-link>
 		<div>
-			<router-link to="/">Camouflages</router-link>
+			<router-link to="/">Tarnungen</router-link>
 			<router-link
 				to="/settings"
 				class="icon settings"

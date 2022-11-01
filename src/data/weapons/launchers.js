@@ -5,7 +5,7 @@ const base = ['PILA', 'STRELA-P', 'JOKR', 'RPG-7']
 const dlc = []
 
 export default [...base, ...dlc].map((weapon) => ({
-	category: 'Launchers',
+	category: 'Raketenwerfer',
 	name: weapon,
 	dlc: dlc.includes(weapon),
 	progress: {

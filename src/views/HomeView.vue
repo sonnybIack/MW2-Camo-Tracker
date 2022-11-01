@@ -1,11 +1,7 @@
 <template>
 	<div class="container">
 		<AlertComponent style="margin-bottom: 30px">
-			This tracker is currently under development and more content will be added continuously during
-			the coming weeks. Please report any bugs or issues by emailing me at
-			<a href="mailto:hello@emilcarlsson.se">hello@emilcarlsson.se</a>, or opening issues on
-			<a href="https://github.com/carlssonemil/orion/issues/new">GitHub</a>. Thanks and good luck
-			with the grind! ✌
+						Call Of Duty: Modern Warfare 2 Camo Tracker v0.1
 		</AlertComponent>
 		<FiltersComponent />
 		<WeaponsComponent :weapons="filteredWeapons" />

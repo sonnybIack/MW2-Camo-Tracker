@@ -1,5 +1,5 @@
 export default {
-	'Assault Rifles': {
+	'Sturmgewehre': {
 		1: 'Get 50 kills',
 		2: 'Get 50 kills while ADS',
 		3: 'Get 10 double kills',
@@ -7,7 +7,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Battle Rifles': {
+	'Kampfgewehre': {
 		1: null,
 		2: null,
 		3: null,
@@ -15,7 +15,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Sub Machine Guns': {
+	'SMG': {
 		1: null,
 		2: null,
 		3: null,
@@ -23,7 +23,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Shotguns': {
+	'Schrotflinten': {
 		1: null,
 		2: null,
 		3: null,
@@ -31,7 +31,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Light Machine Guns': {
+	'LMG': {
 		1: null,
 		2: null,
 		3: null,
@@ -39,7 +39,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Marksman Rifles': {
+	'DMR': {
 		1: null,
 		2: null,
 		3: null,
@@ -47,7 +47,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Sniper Rifles': {
+	'Snipergewehre': {
 		1: null,
 		2: null,
 		3: null,
@@ -55,7 +55,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Handguns': {
+	'Pistolen': {
 		1: null,
 		2: null,
 		3: null,
@@ -63,7 +63,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Launchers': {
+	'Raketenwerfer': {
 		1: null,
 		2: null,
 		3: null,
@@ -71,7 +71,7 @@ export default {
 		Gold: null,
 		Polyatomic: null,
 	},
-	'Melee': {
+	'Nahkampf': {
 		1: null,
 		2: null,
 		3: null,

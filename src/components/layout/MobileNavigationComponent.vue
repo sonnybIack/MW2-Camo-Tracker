@@ -9,17 +9,14 @@
 				<IconComponent name="times" @click="$emit('toggleMobileNavigation')" />
 			</div>
 			<div>
-				<router-link to="/">Camouflages</router-link>
-				<router-link to="/requirements">Requirements</router-link>
+				<router-link to="/">Tarnungen</router-link>
+				<router-link to="/requirements">Erkl&auml;rung</router-link>
 			</div>
 			<div class="footer">
 				<router-link to="/settings">Settings</router-link>
 				<router-link to="/about">About</router-link>
 				<a href="https://github.com/carlssonemil/orion">GitHub</a>
-
-				<a href="https://www.buymeacoffee.com/emilcarlsson" class="button"
-					>Support me by buying me a beer 🍺</a
-				>
+	
 			</div>
 		</nav>
 	</transition>

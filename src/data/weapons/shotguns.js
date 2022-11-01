@@ -1,15 +1,15 @@
-import defaultShotgunsProgress from '../defaults/progress/shotguns'
+import defaultSchrotflintenProgress from '../defaults/progress/shotguns'
 
 const base = ['Lockwood 300', 'Expedite 12', 'Bryson 800', 'Bryson 890']
 
 const dlc = []
 
 export default [...base, ...dlc].map((weapon) => ({
-	category: 'Shotguns',
+	category: 'Schrotflinten',
 	name: weapon,
 	dlc: dlc.includes(weapon),
 	progress: {
-		...defaultShotgunsProgress[weapon],
+		...defaultSchrotflintenProgress[weapon],
 		Gold: false,
 		Polyatomic: false,
 	},

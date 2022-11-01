@@ -5,7 +5,7 @@ const base = ['EBR-14', 'SP-R 208', 'Lockwood MK2', 'LM-S', 'SA-B 50', 'TAQ-M']
 const dlc = []
 
 export default [...base, ...dlc].map((weapon) => ({
-	category: 'Marksman Rifles',
+	category: 'DMR',
 	name: weapon,
 	dlc: dlc.includes(weapon),
 	progress: {

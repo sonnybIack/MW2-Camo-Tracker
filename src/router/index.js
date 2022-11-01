@@ -20,11 +20,7 @@ const router = new VueRouter({
 			name: '404',
 			component: NotFoundView,
 		},
-		{
-			path: '/about',
-			name: 'about',
-			component: () => import('../views/AboutView.vue'),
-		},
+		
 		{
 			path: '/requirements',
 			name: 'requirements',

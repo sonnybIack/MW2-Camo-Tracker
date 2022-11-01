@@ -5,7 +5,7 @@ import defaultLaunchersProgress from './progress/launchers'
 import defaultLightMachineGunsProgress from './progress/lightMachineGuns'
 import defaultMarksmanRiflesProgress from './progress/marksmanRifles'
 import defaultMeleeProgress from './progress/melee'
-import defaultShotgunsProgress from './progress/shotguns'
+import defaultSchrotflintenProgress from './progress/shotguns'
 import defaultSniperRiflesProgress from './progress/sniperRifles'
 import defaultSubmachineGunsProgress from './progress/subMachineGuns'
 
@@ -17,7 +17,7 @@ export {
 	defaultLightMachineGunsProgress,
 	defaultMarksmanRiflesProgress,
 	defaultMeleeProgress,
-	defaultShotgunsProgress,
+	defaultSchrotflintenProgress,
 	defaultSniperRiflesProgress,
 	defaultSubmachineGunsProgress,
 }

@@ -20,7 +20,7 @@ export default {
 
 	mounted() {
 		setTimeout(() => {
-			this.showNotice = true
+			this.showNotice = false
 		}, 15000)
 	},
 }

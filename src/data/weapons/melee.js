@@ -5,7 +5,7 @@ const base = ['Combat Knife', 'Riot Shield']
 const dlc = []
 
 export default [...base, ...dlc].map((weapon) => ({
-	category: 'Melee',
+	category: 'Nahkampf',
 	name: weapon,
 	dlc: dlc.includes(weapon),
 	progress: {

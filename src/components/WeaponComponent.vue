@@ -3,7 +3,7 @@
 		<div
 			:class="['name', { gold: goldCompleted, polyatomic: polyatomicCompleted }]"
 			@dblclick="toggleGoldCamouflageCompleted(weapon, goldCompleted)"
-			v-tippy="{ content: `Double-click to ${polyatomicCompleted ? 'reset' : 'complete'} weapon` }">
+			v-tippy="{ content: `Doppelklick zum ${polyatomicCompleted ? 'reset' : 'Gold'} abschliessen` }">
 			{{ weapon.name }}
 		</div>
 

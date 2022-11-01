@@ -9,9 +9,9 @@
 		<transition name="fade">
 			<div v-if="!filters.hideFilters" class="filters">
 				<div class="select">
-					<label for="category">Category</label>
+					<label for="category">Kategorie</label>
 					<select id="category" v-model="filters.category" @change="updateFilters(filters)">
-						<option value="null">All</option>
+						<option value="null">Alle</option>
 						<option v-for="(category, index) in categories" :key="index" :value="category">
 							{{ category }}
 						</option>
@@ -26,20 +26,11 @@
 							type="checkbox"
 							v-model="filters.hideGold"
 							@change="updateFilters(filters)" />
-						<span>Hide Gold</span>
+						<span>Fertige Ausblenden</span>
 					</label>
 				</div>
 
-				<div class="checkbox">
-					<label for="hideCompleted" :class="{ checked: filters.hideCompleted }">
-						<input
-							id="hideCompleted"
-							type="checkbox"
-							v-model="filters.hideCompleted"
-							@change="updateFilters(filters)" />
-						<span>Hide completed</span>
-					</label>
-				</div>
+				
 
 				<!-- TODO: Add this once the first DLC weapons are released -->
 				<!--<div class="checkbox">
@@ -54,39 +45,13 @@
 				</div>-->
 
 				<div class="info">
-					<IconComponent
-						name="question-circle"
-						fill="white"
-						v-tippy="{ placement: 'bottom' }"
-						:content="'You only need to complete the number of base guns there are for each category to earn the Platinum camouflage. For example, the Assault Rifles requires a total of 8 Gold camouflages to reward the Platinum camouflage for all weapons in that category. Press this icon to read more.'"
-						@click="$router.push('/requirements')" />
-					<div class="mobile">
-						<IconComponent name="question-circle" fill="white"></IconComponent>
-						<p>
-							You only need to complete the number of base guns there are for each category to earn
-							the Platinum camouflage. For example, the Assault Rifles requires a total of 8 Gold
-							camouflages to reward the Platinum camouflage for all weapons in that category. Read
-							more
-							<router-link to="/requirements">here</router-link>.
-						</p>
-					</div>
+					
+					
 				</div>
 			</div>
 		</transition>
 
-		<div id="toggle-filter-icon">
-			<IconComponent
-				@click="toggleFilters()"
-				v-if="filters.hideFilters"
-				name="filter"
-				class="show-icon"
-				v-tippy="{ content: 'Show filters' }" />
-			<IconComponent
-				@click="toggleFilters()"
-				v-else
-				name="filter-slash"
-				v-tippy="{ content: 'Hide filters' }" />
-		</div>
+		
 	</div>
 </template>
 
@@ -219,7 +184,7 @@ button#toggle-filter-button {
 	align-items: center;
 	background: $elevation-3-color;
 	color: white;
-	display: inline-flex;
+	display: none;
 	font-size: 18px;
 	padding: 16px;
 	width: 100%;

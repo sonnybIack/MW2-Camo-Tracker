@@ -9,9 +9,9 @@
 				<h2>
 					<span
 						v-tippy="{
-							content: `Double-click to ${
-								categoryCompleted(category) ? 'reset' : 'complete'
-							} category`,
+							content: `Doppelklick um ${
+								categoryCompleted(category) ? 'einen Reset' : 'Kategorie'
+							} abzuschliessen`,
 						}"
 						@dblclick="toggleCategoryCompleted(category, categoryCompleted(category))">
 						{{ title }}
